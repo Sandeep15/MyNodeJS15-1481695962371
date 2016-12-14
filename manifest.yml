@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: MyNodeJS15
+  host: MyNodeJS15
+  disk_quota: 1024M
+  services:
+  - MyNodeJS15-cloudantNoSQLDB
